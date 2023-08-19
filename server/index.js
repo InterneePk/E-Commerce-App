@@ -14,7 +14,7 @@ const app = express();
 
 const PORT = 8000;
 
-connectDB('wordCounterApp');
+connectDB('your database');
 
 app.listen(PORT, () => console.log(`Server is running successfully on PORT ${PORT}`));
 DefaultData();
