@@ -4,7 +4,7 @@ import mongoose from 'mongoose';
 const connectDB = async (dbName) => {
   try {
     // Connect to the MongoDB cluster using the provided connection string and options
-    const connection = await mongoose.connect(`mongodb+srv://WajahatBhatti:12345678wajahat@interneepk.ey93gey.mongodb.net/${dbName}?retryWrites=true&w=majority`, {
+    const connection = await mongoose.connect(`mongodb+srv://******:*****@*****.ey93gey.mongodb.net/${dbName}?retryWrites=true&w=majority`, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
