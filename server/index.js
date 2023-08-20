@@ -12,7 +12,7 @@ import Routes from './routes/route.js';
 dotenv.config();
 const app = express();
 
-const PORT = 8000;
+const PORT = 8080;
 
 connectDB('your database');
 

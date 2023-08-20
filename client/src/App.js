@@ -18,8 +18,8 @@ function App() {
           <Box style={{marginTop: 54}}>
             <Routes>
               <Route path= '/' element={<Home />} />
-              <Route path= '/cart' element={<Cart />} />
-              <Route path= '/product/:id' element={<DetailView />} />
+              <Route path= '/Cart' element={<Cart />} />
+              <Route path= '/Product/:id' element={<DetailView />} />
             </Routes>
           </Box>
         </BrowserRouter>
